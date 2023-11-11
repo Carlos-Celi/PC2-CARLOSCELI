@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448250302707",
+    "project_id": "pc2carlos",
+    "storage_bucket": "pc2carlos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448250302707:android:5ebf47f36980851f5fe786",
+        "android_client_info": {
+          "package_name": "com.example.pc2_carlosceli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCieowcu-bjIvB7VibLc49lrvEjbTsyur8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
