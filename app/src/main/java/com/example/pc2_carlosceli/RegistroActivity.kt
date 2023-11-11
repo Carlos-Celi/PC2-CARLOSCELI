@@ -13,6 +13,9 @@ import com.google.firebase.firestore.FirebaseFirestore
 import android.view.View
 
 class RegistroActivity:AppCompatActivity() {
+    fun C(view: View){
+        startActivity(Intent(this,ListadoActivity::class.java))
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -81,7 +84,7 @@ class RegistroActivity:AppCompatActivity() {
 
     }
 
-    fun usuario(view: View){
+    fun V(view: View){
         startActivity(Intent(this,ListadoActivity::class.java))
     }
     }
