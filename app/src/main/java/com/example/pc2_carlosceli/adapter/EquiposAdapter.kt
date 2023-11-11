@@ -33,7 +33,7 @@ class EquiposAdapter(private var lstEquipos: List<EquiposModel>): RecyclerView.A
         val itemEquipos = lstEquipos[position]
         holder.tvNombre.text = itemEquipos.nombre
         holder.tvAño.text = itemEquipos.año
-        holder.tvTitulos.text = itemEquipos.ntitulos
+        holder.tvTitulos.text = itemEquipos.nTItulos
         Picasso.get().load(itemEquipos.imageUrl).into(holder.ivUrl)
 
 

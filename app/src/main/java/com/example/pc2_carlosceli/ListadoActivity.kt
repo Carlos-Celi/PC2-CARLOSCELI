@@ -35,7 +35,7 @@ class ListadoActivity: AppCompatActivity() {
                     EquiposModel(
                         document["nombre"].toString(),
                         document["año"].toString(),
-                        document["ntitulos"].toString(),
+                        document["nTItulos"].toString(),
                         document["imageUrl"].toString()
                     )
                 }
